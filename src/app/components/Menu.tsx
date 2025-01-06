@@ -69,10 +69,10 @@ const Menu = () => {
         {/* Title and Description */}
         <div className="max-w-6xl mx-auto text-center mb-8">
           <h1 className="text-4xl font-bold text-white mb-4">
-             Delicious Dishes  
+            Delicious and Special Food Our Menu 
           </h1>
           <p className="text-xl text-white">
-            Explore our selection of mouth-watering food. Fresh ingredients,
+            Explore our selection of mouth-watering foods. Fresh ingredients,
             tasty flavors, and the best experience!
           </p>
         </div>

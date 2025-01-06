@@ -1,8 +1,9 @@
+ //pages/api/products.js
 export default function handler(req, res) {
     const products = [
       {
         id: 1,
-        name: "Veg Beef Boti",
+        name: " Veg Beef Boti",
         price: 10,
         image:
           "image/31.jpg",
@@ -17,17 +18,17 @@ export default function handler(req, res) {
       },
       {
         id: 3,
-        name: "Seekh Kabab",
+        name: "Chiken Tikka",
         price: 8,
         image:
-          "image/32.jpg",
+          "image/28.jpg",
       },
       {
         id: 4,
-        name: "Chicken Tikka",
+        name: "Chicken Karhai",
         price: 15,
         image:
-          "image/28.jpg",
+          "image/4.jpg",
       },
       {
         id: 5,
