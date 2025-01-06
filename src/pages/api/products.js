@@ -1,45 +1,50 @@
-
-
-export default function handler(req, res){
+export default function handler(req, res) {
     const products = [
-        {
-            id: 1,
-            name: "Biryani",
-            price: 250,
-            image: "image/7.jpeg",
-        },
-        {
-            id: 2,
-            name: "Karahi",
-            price: 350,
-            image: "image/3.jpg",
-        },
-        {
-            id: 3,
-            name: "Handi",
-            price: 350,
-            image: "image/25.png",
-        },
-        {
-            id: 4,
-            name: "Fish",
-            price: 550,
-            image: "image/29.jpg",
-        },
-        {
-            id: 5,
-            name: "Prawn",
-            price: 700,
-            image: "image/30.jpg",
-        },
-        {
-            id: 6,
-            name: "Tikka",
-            price: 250,
-            image: "image/28.jpg",
-        },
-
+      {
+        id: 1,
+        name: "Veg Beef Boti",
+        price: 10,
+        image:
+          "image/31.jpg",
+      },
+  
+      {
+        id: 2,
+        name: "Chicken Biryani",
+        price: 12,
+        image:
+          "image/8.jpg",
+      },
+      {
+        id: 3,
+        name: "Seekh Kabab",
+        price: 8,
+        image:
+          "image/32.jpg",
+      },
+      {
+        id: 4,
+        name: "Chicken Tikka",
+        price: 15,
+        image:
+          "image/28.jpg",
+      },
+      {
+        id: 5,
+        name: "Fish Fry",
+        price: 13,
+        image: "image/29.jpg",
+      },
+      {
+        id: 6,
+        name: "Prawn",
+        price: 14,
+        image:
+          "image/30.jpg",
+      },
+      
     ];
-
+  
     res.status(200).json(products);
-};
+  }
+  
